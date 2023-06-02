@@ -1,0 +1,373 @@
+<nav class="navbar navbar-expand-lg bg-light fixed-top">
+  <div class="container-fluid my-4 px-md-8">
+    <div class="navbar--logo col-auto">
+      <!-- <h1 title="社會影響加速器"> -->
+      <RouterLink
+        to="/"
+        title="社會影響加速器:回首頁"
+        class="navbar-brand logo--img bg-light"
+        aria-hidden="“true”"
+      >
+        社會影響加速器
+      </RouterLink>
+      <!-- </h1> -->
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav" title="主選單">
+        <li class="nav-item nav--about me-3">
+          <RouterLink
+            to="about"
+            class="nav-link px-5 py-2 fs-xl fw-regular rounded-1 text-dark center"
+            >關於我們</RouterLink
+          >
+        </li>
+        <li class="nav-item nav--contact me-3">
+          <RouterLink
+            to="contact"
+            class="nav-link px-5 py-2 fs-xl fw-regular rounded-1 text-dark center"
+            >聯絡我們</RouterLink
+          >
+        </li>
+        <li class="nav-item nav--login me-3">
+          <RouterLink
+            to="login"
+            class="nav-link px-5 py-2 fs-xl fw-regular rounded-1 btn btn-outline-dark"
+            >會員登入
+          </RouterLink>
+        </li>
+
+        <li class="nav-item nav--register me-3">
+          <RouterLink
+            to="register"
+            class="nav-link px-5 py-2 fs-xl fw-regular rounded-1 btn btn-dark"
+            >會員註冊
+          </RouterLink>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="home mt-0 pt-0" id="Center">
+  <section class="banner">
+    <div class="ground col-8">
+      <div
+        class="architecture animate__animated animate__zoomInDown animate__faster"
+      >
+        <img
+          src="../../assets/images/architecture.svg"
+          alt="在樓頂上有四組社工"
+        />
+      </div>
+      <div
+        class="reflection animate__animated animate__delay-1s animate__backInDown animate__faster"
+      >
+        <img
+          src="../../assets/images/reflection.svg"
+          alt="第一組為一位雙手交叉至背後進行思考的志工"
+        />
+        <div class="reflection--card">
+          <img
+            src="../../assets/images/reflection-card.svg"
+            alt="反思 reflection"
+            aria-hidden="true"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+      <div
+        class="evaluation animate__animated animate__delay-2s animate__backInLeft animate__faster"
+      >
+        <img
+          src="../../assets/images/evaluation.svg"
+          alt="第二組為一位志工拿著尺標與另一位志工討論分析結果的志工"
+        />
+        <div class="evaluation--card">
+          <img
+            src="../../assets/images/evaluation-card.svg"
+            alt="評估 assessment"
+            aria-hidden="true"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+      <div
+        class="training animate__animated animate__delay-3s animate__zoomInRight animate__faster"
+      >
+        <img
+          src="../../assets/images/training.svg"
+          alt="第三組是兩位進行一對一教育的志工"
+        />
+        <div class="training--card">
+          <img
+            src="../../assets/images/training-card.svg"
+            alt="培訓 training"
+            aria-hidden="true"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+      <div
+        class="effectiveness animate__animated animate__delay-4s animate__fadeInLeft animate__faster"
+      >
+        <img
+          src="../../assets/images/effectiveness.svg"
+          alt="第四組為一人側對著長條圖的白板看著報表，另一人坐在圓餅圖形狀的椅子上，拿著筆電進行分析的志工"
+        />
+        <div class="effectiveness--card">
+          <img
+            src="../../assets/images/effectiveness-card.svg"
+            alt="效益 effectiveness"
+            aria-hidden="true"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="title col-4">
+      <div class="title--box">
+        <div
+          class="animate__animated animate__delay-5s animate__zoomInDown animate__faster"
+        >
+          <img
+            src="../../assets/images/title-slogan.svg"
+            alt="社會影響加速器，幫助你工作再加速！"
+          />
+        </div>
+        <div
+          class="btn--box animate__animated animate__jackInTheBox animate__delay-5s animate__faster"
+        >
+          <RouterLink
+            to="/ask"
+            class="btn start-btn sp-btn center text-center fs-lg-2xl fs-md-lg fs-base fw-sm lh-base"
+            title="開始使用"
+            >開始使用
+          </RouterLink>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="info">
+    <div class="info--box">
+      <div class="info--title center">
+        <h2 class="fs-lg-8xl fs-6xl fs-4xl fw-bold lh-lg">
+          — 方案設計與效益評估的優化工具 —
+        </h2>
+      </div>
+      <div class="center content">
+        <h3 class="lh-lg fs-lg-2xl fs-sm-lg fs-sm fw-medium">
+          串門子社會設計融合設計思考及方案設計思維，<br />
+          為社工、專業工作者、教育訓練人員<br />
+          及捐款單位設計一款加速方案設計與效益評估的優化工具。
+        </h3>
+      </div>
+      <div class="situation">
+        <img
+          src="../../assets/images/situation.svg"
+          alt="一位女性社工面對著筆電，右手拄著頭苦惱著如何設計方案、尋找社工評估效益工具等問題。"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="advantage">
+      <div class="advantage--title">
+        <h2 class="fs-lg-8xl fs-md-6xl fs-4xl fw-bold lh-lg">
+          — 我們的 3 大優勢 —
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card--img">
+                <img
+                  src="../../assets/images/controlbenefits.svg"
+                  alt="清單列表"
+                />
+              </div>
+              <div class="card--body">
+                <div class="card--title">
+                  <span class="fw-medium fs-lg-3xl fs-md-xl fs-sm"
+                    >控管效益</span
+                  >
+                </div>
+                <div class="card--content">
+                  <p class="lh-lg fs-xl-2xl fs-lg-lg fs-xs mx-5">
+                    從方案發展初期導入效益評估工具<br />成效累積看得見
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card--img">
+                <img
+                  src="../../assets/images/multipleviewpoints.svg"
+                  alt="一個人浮現多個想法"
+                />
+              </div>
+              <div class="card--body">
+                <div class="card--title">
+                  <span class="fw-medium fs-lg-3xl fs-md-xl fs-sm"
+                    >多元觀點</span
+                  >
+                </div>
+                <div class="card--content">
+                  <p class="lh-lg fs-xl-2xl fs-lg-lg fs-xs mx-5">
+                    提供反思性回饋與客觀指標建議<br />藉第三方視角突破瓶頸
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card--img">
+                <img
+                  src="../../assets/images/improveefficiency.svg"
+                  alt="一個圓餅圖上穿出一個向上的箭頭"
+                />
+              </div>
+              <div class="card--body">
+                <div class="card--title">
+                  <span class="fw-medium fs-lg-3xl fs-md-xl fs-sm-sm"
+                    >提升效率</span
+                  >
+                </div>
+                <div class="card--content">
+                  <p class="lh-lg fs-xl-2xl fs-lg-lg fs-xs mx-5">
+                    縮短摸索撞牆期，降低繁瑣行政<br />集中火力做我們最擅長的事
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="advantage--btn center my-9">
+        <RouterLink
+          to="about"
+          class="btn btn-outline-dark center"
+          title="前往關於我們"
+          >深入瞭解</RouterLink
+        >
+        <RouterLink
+          to="ask"
+          class="btn btn-dark center"
+          title="前往登入後開始使用"
+          >開始使用</RouterLink
+        >
+      </div>
+    </div>
+  </div>
+  <div class="method d-none" id="Method">
+    <div class="method--box">
+      <div class="method--title center" title="使用說明">
+        <p class="fs-lg-8xl fs-md-6xl fs-sm-4xl fw-bold lh-lg">— 使用說明 —</p>
+      </div>
+      <div class="method--video col-12 center" title="使用說明的影片教學">
+        <video ref="myVideo" class="" alt="" controls poster>
+          <source src="@/assets/images/demo_vedio.mp4" type="video/MP4" />
+        </video>
+      </div>
+      <div class="method--btn center">
+        <RouterLink
+          to="/ask"
+          class="btn btn-dark center"
+          title="前往登入後開始使用"
+          >開始使用</RouterLink
+        >
+      </div>
+    </div>
+  </div>
+  <div class="partner container-fluid d-none">
+    <div class="partner--box center">
+      <div class="partner--title center mb-8" title="合作好友">
+        <p class="fs-lg-8xl fs-md-6xl fs-sm-4xl fw-bold lh-lg">— 合作好友 —</p>
+      </div>
+      <div class="partner--img center">
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+        <div class="img--box center">
+          <a href="https://thelinkertw.com/" target="_blank">
+            <img src="../../assets/images/partner.png" alt="合作好友"
+          /></a>
+        </div>
+      </div>
+      <div class="slogan">
+        <div class="slogan--box my-7">
+          <p
+            class="fs-lg-8xl fs-md-6xl fs-sm-4xl fw-bold lh-lg center tx-center"
+          >
+            使用社會影響加速器，<br aria-hidden="true" />
+            讓你的方案設計品質超速
+          </p>
+        </div>
+        <div class="slogan--btn center">
+          <RouterLink
+            to="/ask"
+            class="btn btn-dark center"
+            title="前往登入後開始使用"
+          >
+            開始使用
+          </RouterLink>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
